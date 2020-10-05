@@ -10,11 +10,11 @@ Example:
   :@@@@@@@. .&@@@@@@@@@@@&.
  :@@@@@@@@@: '&@@@@@@@@@&'    Bukwild: Design and technology for innovators.
 :@@@@@@@@@@@:  '"@@@@@"'      bukwild.com
-
 ```
 
 ## Install
 npm: `npm install @bkwld/credits`
+
 yarn: `yarn add @bkwld/credits`
 
 ## Configure
@@ -23,11 +23,11 @@ yarn: `yarn add @bkwld/credits`
 In nuxt.config.coffee:
 ```
 modules: [
-	'@bkwld/credits/nuxt/module' if !process.env.HIDE_CONSOLE_CREDITS
+  '@bkwld/credits/nuxt/module' if !process.env.HIDE_CONSOLE_CREDITS
 ]
 ```
 
-To hide credits during local development, in .env:
+In .env (to hide credits during local development):
 ```
 HIDE_CONSOLE_CREDITS=1
 ```
