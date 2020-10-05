@@ -1,0 +1,10 @@
+{
+    "name": "@bkwld/credits",
+    "version": "0.0.1",
+    "description": "Log credits to the console when the app mounts.",
+    "repository": "git@github.com:BKWLD/credits.git",
+    "author": "info@bukwild.com",
+    "license": "MIT",
+    "devDependencies": {},
+    "dependencies": {}
+  }
