@@ -6,7 +6,7 @@
   path = require('path');
 
   module.exports = function() {
-    if (process.env.DISABLE_BUKWILD_CREDITS) {
+    if (process.env.DISABLE_BUKWILD_CREDITS === 'true') {
       return;
     }
     return this.addPlugin({
