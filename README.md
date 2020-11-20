@@ -23,11 +23,12 @@ yarn: `yarn add @bkwld/credits`
 In nuxt.config.coffee:
 ```
 modules: [
-  '@bkwld/credits/nuxt/module' if !process.env.HIDE_CONSOLE_CREDITS
+  '@bkwld/credits/nuxt/module'
 ]
 ```
 
-In .env (to hide credits during local development):
+In .env:
 ```
-HIDE_CONSOLE_CREDITS=1
+# Hide the credits during dev
+DISABLE_BUKWILD_CREDITS=true
 ```
