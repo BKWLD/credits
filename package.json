@@ -5,6 +5,12 @@
     "repository": "git@github.com:BKWLD/credits.git",
     "author": "info@bukwild.com",
     "license": "MIT",
+    "scripts": {
+        "build": "coffee -c **/*.coffee",
+        "watch": "coffee --watch --compile **/*.coffee"
+    },
     "devDependencies": {},
-    "dependencies": {}
+    "dependencies": {
+        "coffeescript": "^2.5.1"
+    }
 }
